@@ -498,11 +498,11 @@ const showsData = [
     description:
       "<p>As the country struggles to cope with the Great Depression and the end of Prohibition looms, Nucky Thompson looks to legitimize himself through alliances with liquor producers, while rivals Lucky Luciano and Meyer Lansky seek to consolidate their power in the wake of Arnold Rothstein's death and eliminate all competition - by any means necessary on <b>Boardwalk Empire</b>.</p>",
   },
-  /*{
+  {
     name: 'Law & Order: Special Victims Unit',
     description:
       '<p>In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.</p>',
-  },*/
+  },
 ];
 
 module.exports = {
