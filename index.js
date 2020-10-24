@@ -64,8 +64,8 @@ const resolvers = {
 
 const server = new ApolloServer({ typeDefs, resolvers, context: { models } });
 
-console.log('Start v1');
+console.log('Start v2');
 
-server.listen().then(({ url }) => {
+server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
   console.log(`🚀  Server ready at ${url}`);
 });
