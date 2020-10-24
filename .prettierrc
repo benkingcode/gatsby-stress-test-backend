@@ -1,0 +1,1 @@
+{ "singleQuote": true, "excludeFiles": ["./data.js"] }
