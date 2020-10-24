@@ -21,7 +21,7 @@ module.exports = {
     const shows = await models.Show.findAll();
 
     for (let show of shows) {
-      const episodes = [...Array(98)].map((ep, i) => {
+      const episodes = [...Array(100)].map((ep, i) => {
         return {
           showId: show.id,
           name: faker.lorem.words(3).toTitleCase(),
